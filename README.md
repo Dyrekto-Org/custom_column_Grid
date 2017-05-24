@@ -30,6 +30,7 @@ $fieldset->addField('member_type', 'select', array(
       ));
 ```      
 **3. Run this code to PackageController.php**
+	*Note: You will only run this code once and remove it.*
 ```
 $installer = new Mage_Core_Model_Resource_Setup();
 
