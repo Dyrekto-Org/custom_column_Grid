@@ -2,7 +2,7 @@
 Customization of the Magestore Membership Extension
 
 
-<h3>1.Add this code to Grid.php</h3> <br>
+**1.Add this code to Grid.php**
 ```
 $this->addColumn('member_type', array( 
           'header'    => Mage::helper('membership')->__('Member Type'),
@@ -11,7 +11,7 @@ $this->addColumn('member_type', array(
 		  'width'     => '10px',
 	 ));
 ```
-<h3>2. Add this code to Form.php</h3> <br>
+**2. Add this code to Form.php**
 ```
 $fieldset->addField('member_type', 'select', array(
           'label'     => Mage::helper('membership')->__('Member Type'),
@@ -29,7 +29,7 @@ $fieldset->addField('member_type', 'select', array(
           ),
       ));
 ```      
-<h3>3. Run this code to PackageController.php</h3> <br>
+**3. Run this code to PackageController.php**
 ```
 $installer = new Mage_Core_Model_Resource_Setup();
 
